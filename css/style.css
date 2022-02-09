@@ -9,7 +9,6 @@ section{
 
 ul li a{
     display: inline-block;
-    border: 1px solid #FFFFFF
 
 }
 .header_text{
@@ -57,4 +56,14 @@ form{
 .application{
     margin-left:30px;
 }
+ul{
+    list-style: none;
+}
 
+.facebook{
+    height: 36px;
+    width: 36px;
+    border-color: white;
+    border-radius: 100px;
+    display: inline-block;
+}
