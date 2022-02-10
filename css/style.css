@@ -1,6 +1,7 @@
 header{
     margin: auto;
     max-width: 1110px;
+    margin-top: 4em;
 
 }
 body{
@@ -8,13 +9,18 @@ body{
     background-size: 100%;
 }
 section{
+
+}
+.container{
     margin: auto;
     max-width: 1110px;
 }
 
 ul li a{
     display: inline-block;
-    border-radius: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
 
 
 }
@@ -34,7 +40,7 @@ h1{
     font-size: 55px;
     line-height: 55px;
     text-align: left;
-    max-width: 560px;
+
 
 }
 .p{
@@ -63,5 +69,8 @@ form{
 }
 ul{
     list-style: none;
+}
+.facebook{
+    padding: 10px 11px 10px 11px;
 }
 
