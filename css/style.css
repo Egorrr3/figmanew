@@ -14,7 +14,7 @@
 header{
     margin: auto;
     max-width: 1110px;
-    background-image: url('../images/back.jpg');
+    background-image: url('/../images/back.jpg');
     background-size: cover;
     width: 100%;
 
