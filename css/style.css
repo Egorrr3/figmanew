@@ -47,14 +47,14 @@ ul li a{
     border-radius: 200px;
     box-sizing: border-box;
     color:black;
-    padding: 10px 11px 10px 11px;
+    padding: 10px 11px;
     padding-left: 23px;
 }
 li{
     padding-left: 23px;
 }
 .phonenum{
-    padding: 7px 27px 7px 27px;
+    padding: 7px 27px;
 
 }
 .header_text{
@@ -83,7 +83,7 @@ li{
 }
 
 a p{
-    padding: 27px 43px 27px 43px;
+    padding: 27px 43px;
     font-family: 20 Kopeek;
     font-size: 18px;
     font-style: normal;
@@ -150,12 +150,12 @@ ul{
     font-style: normal;
     font-weight: 400;
     line-height: 55px;
-    letter-spacing: 0em;
     text-align: left;
 }
 .third_section_article{
     display: flex;
     justify-content: space-between;
+
 }
 .one{
 //styleName: Desk — Body;
@@ -164,28 +164,23 @@ ul{
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
 .onetext{
-//styleName: Desk — Body;
     font-family: 20 Kopeek;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: 0em;
     text-align: left;
 }
 .two{
-//styleName: Desk — Body;
     font-family: 20 Kopeek;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: 0em;
     text-align: left;
 }
 .twotext{
@@ -197,4 +192,108 @@ ul{
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
+}
+.three{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+.threetext{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.four{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+.fourtext{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.five{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+.fivetext{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.third_section_h3{
+//styleName: Desk — H2;
+    font-family: 20 Kopeek Book;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+}
+.third_section_article_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third_section_article_1_text_1{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+//styleName: Desk — Body;
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.third_section_article_1_text_1_blue{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background: #2B59C3;
+    padding: 11px 7px 11px 13px;
+    border-radius: 20px;
+}
+.third_section_article_1_text{
+    padding-right: 82px;
 }
