@@ -47,6 +47,7 @@ ul li a{
     border-radius: 200px;
     box-sizing: border-box;
     color:black;
+    padding: 10px 11px 10px 11px;
     padding-left: 23px;
 }
 li{
@@ -110,9 +111,6 @@ ul{
     list-style: none;
     display: flex;
 }
-.facebook{
-    padding: 10px 11px 10px 11px;
-}
 .second_section{
     margin-top: 70px;
 }
@@ -127,6 +125,8 @@ ul{
 }
 .second_section_article{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
@@ -140,6 +140,9 @@ ul{
     letter-spacing: 0em;
     text-align: left;
 }
+.third_section{
+    padding-top: 141px;
+}
 .third_section_h2{
 //styleName: Desk — H1;
     font-family: 20 Kopeek Book;
@@ -149,6 +152,49 @@ ul{
     line-height: 55px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top: 141px;
+}
+.third_section_article{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+//styleName: Desk — Body;
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 
+.onetext{
+//styleName: Desk — Body;
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.two{
+//styleName: Desk — Body;
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.twotext{
+//styleName: Desk — Body;
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
 }
