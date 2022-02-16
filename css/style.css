@@ -47,14 +47,20 @@ ul li a{
     border-radius: 200px;
     box-sizing: border-box;
     color:black;
-    padding: 10px 11px;
-    padding-left: 23px;
+  padding: 7px 11px;
+}
+.first_section_links{
+    display: flex;
+    align-items: center;
 }
 li{
     padding-left: 23px;
 }
 .phonenum{
     padding: 7px 27px;
+
+}
+.facebook{
 
 }
 .header_text{
