@@ -10,9 +10,25 @@
     font-style: normal;
     font-display: swap;
 }
-
+.container{
+    margin: auto;
+    max-width: 1110px;
+    font-family: "20 Kopeek", sans-serif;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 header{
-    background-image: url('../images/back.jpg');
+    position: absolute;
     width: 100%;
     padding-top: 32px;
 }
@@ -20,48 +36,38 @@ header{
     display: flex;
     align-items: center;
 }
-.container{
-    margin: auto;
-    max-width: 1110px;
-}
-.container_head {
-    margin: auto;
-    max-width: 1110px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.first_section{
+.first_section_forbg{
     background-image: url('../images/back.jpg');
     background-size: cover;
-    height: 100vh;
-    width: 100%;
-    padding-top: 269px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 340px 0 309px;
 }
-nav{
+a{
+    text-decoration: none;
+}
 
-}
 ul li a{
     display: inline-block;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    padding: 12px;
     border: 1px solid #FFFFFF;
-    border-radius: 200px;
-    box-sizing: border-box;
-    color:black;
-  padding: 7px 11px;
+    margin-left: 23px;
+    border-radius: 50%;
+}
+
+.phonenum{
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+    margin-left: 0;
+    color: #FFFFFF;
 }
 .first_section_links{
     display: flex;
     align-items: center;
-}
-li{
-    padding-left: 23px;
-}
-.phonenum{
-    padding: 7px 27px;
-
-}
-.facebook{
-
 }
 .header_text{
 
@@ -73,29 +79,14 @@ li{
     color: white;
     margin-left: 22px;
 }
-.portfolio{
-    margin-top: 65px;
-    border-radius: 200px;
-    color: black;
-    display: inline-block;
-    background: #FFFFFF;
-    margin-right: 20px;
-}
-.application{
-    border-radius: 200px;
-    color: black;
-    display: inline-block;
-    background: #FFFFFF;
-}
-
-a p{
-    padding: 27px 43px;
-    font-family: 20 Kopeek;
+.first_section_links a{
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
+    color: #181818;
+    padding: 23px 47px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    margin-right: 20px;
+    font-family: sans-serif;
 }
 h1{
     font-family: 20 Kopeek Book;
@@ -110,8 +101,6 @@ h1{
     font-size: 34px;
     line-height: 37px;
     text-align: left;
-
-
 }
 ul{
     list-style: none;
@@ -120,31 +109,30 @@ ul{
 .second_section{
     margin-top: 70px;
 }
-.second_section_h2{
-//styleName: Desk — H2;
-    font-family: 20 Kopeek Book;
+.container h2{
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
     line-height: 42px;
-    text-align: left;
-}
-.second_section_article{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-}
-.second_section_article_text_2{
-//styleName: Desk — Body;
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
+    display: flex;
+    justify-content: flex-end;
+}
+.second_section h3{
+    font-size: 38px;
+    color: #181818;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.second_section_article img{
+    max-width: 635px;
+}
+.second_section_article_text{
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
 }
 .third_section{
     padding-top: 141px;
@@ -158,148 +146,93 @@ ul{
     line-height: 55px;
     text-align: left;
 }
-.third_section_article{
-    display: flex;
-    justify-content: space-between;
 
+.elements_style{
+    align-items: flex-start;
+    margin-bottom: 120px;
 }
-.one{
-//styleName: Desk — Body;
-    font-family: 20 Kopeek;
-    font-size: 18px;
+.elements_style .display-flex{
+    align-content: flex-start;
+    justify-content: normal;
+}
+.elements_style span{
+    display: inline-block;
     font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 100%;
+    margin-right: 8px;
+    align-self: flex-start;
+}
+.elements_style h4{
+    max-width: 130px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+}
+.elements_style_text{
+    max-width: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 40px;
+}
+.ind_style{
+    text-align: right;
+    margin-right: 80px;
 }
 
-.onetext{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
+.cost_style div{
+    max-width: 416px;
 }
-.two{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-}
-.twotext{
-//styleName: Desk — Body;
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.three{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-}
-.threetext{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.four{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-}
-.fourtext{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.five{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-}
-.fivetext{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.third_section_h3{
-//styleName: Desk — H2;
-    font-family: 20 Kopeek Book;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 42px;
-    letter-spacing: 0em;
-    text-align: left;
-    display: flex;
-    justify-content: flex-end;
-}
-.third_section_article_1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.third_section_article_1_text_1{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-
-//styleName: Desk — Body;
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-
-
-}
-.third_section_article_1_text_1_blue{
-    font-family: 20 Kopeek;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-    background: #2B59C3;
+.cost_style div p{
     padding: 11px 7px 11px 13px;
-    border-radius: 20px;
 }
-.third_section_article_1_text{
-    padding-right: 82px;
+.cost_style div .blue_paragraph{
+    background: #2B59C3;
+    border-radius: 5px;
+    color: #FFFFFF;
 }
+
+.catalog{
+margin-top: 133px;
+}
+
+.catalog h4 {
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.catalog p{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 233px;
+    text-align: left;
+
+}
+.mark{
+    max-width: 540px;
+    align-items: flex-start;
+    margin-top: 38px;
+}
+
+.mark .display-flex a{
+    display: inline-block;
+    font-size: 18px;
+    color: #181818;
+    padding: 23px 47px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    border: 1px solid;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
