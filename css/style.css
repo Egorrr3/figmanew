@@ -42,6 +42,7 @@ header{
     background-repeat: no-repeat;
     background-position: center center;
     padding: 340px 0 309px;
+    height: 100vh;
 }
 a{
     text-decoration: none;
@@ -89,7 +90,6 @@ ul li a{
     font-family: sans-serif;
 }
 h1{
-    font-family: 20 Kopeek Book;
     font-size: 55px;
     line-height: 55px;
     text-align: left;
@@ -97,7 +97,6 @@ h1{
 }
 .under_h1{
     margin-top: 30px;
-    font-family: 20 Kopeek Book;
     font-size: 34px;
     line-height: 37px;
     text-align: left;
@@ -109,7 +108,7 @@ ul{
 .second_section{
     margin-top: 70px;
 }
-.container h2{
+.second_section h2{
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
@@ -138,8 +137,6 @@ ul{
     padding-top: 141px;
 }
 .third_section_h2{
-//styleName: Desk — H1;
-    font-family: 20 Kopeek Book;
     font-size: 55px;
     font-style: normal;
     font-weight: 400;
@@ -235,4 +232,84 @@ margin-top: 133px;
     margin-right: 20px;
     font-family: sans-serif;
 }
+.showmore{
+    font-style: normal;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding: 23px 47px;
+    background: #2B59C3;
+    border-radius: 40px;
+    margin-left: 300px;
+}
+.guidelines{
 
+}
+.guidelines h3{
+    font-size: 38px;
+    color: #181818;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.guidelines-text{
+    max-width: 445px;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    box-sizing: border-box;
+}
+.blue-background{
+    background: #2B59C3;
+    border-radius: 5px;
+    padding-: 14px 11px;
+}
+.blue-background p{
+    color: #FFFFFF;
+
+}
+.blue-background h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%;
+    color: #FFFFFF;
+    background: #2B59C3;
+    border-radius: 5px 5px 0 0;
+    padding: 14px 39px 10px 11px;
+    margin: 0;
+}
+.guidelines-text p{
+    margin-top: 15px;
+}
+.order-a-project h2 {
+    font-family: 20 Kopeek Book;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+
+}
+input{
+    width: 100%;
+    padding: 29px 23px;
+    border: 1px solid #181818;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    box-sizing: border-box;
+}
+.input-box{
+    width: 350px;
+    font-family: '20 Kopeek', sans-serif;
+}
+.order-button{
+    background: #2B59C3;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 23px 47px;
+
+}
