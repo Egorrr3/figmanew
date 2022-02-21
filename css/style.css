@@ -288,9 +288,19 @@ margin-top: 133px;
     font-weight: 400;
     line-height: 42px;
     text-align: left;
-
 }
-input{
+#first_name{
+    width: 100%;
+    padding: 29px 23px;
+    border: 1px solid #181818;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    box-sizing: border-box;
+}
+#last_name{
     width: 100%;
     padding: 29px 23px;
     border: 1px solid #181818;
@@ -311,5 +321,50 @@ input{
     border: none;
     color: white;
     padding: 23px 47px;
+}
+.checkbox{
+    margin-top: 21px;
+}
+.sheet{
+    margin-top: 83px;
+}
+.sheet h5{
+    font-family: 20 Kopeek;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
 
 }
+.sheet p{
+    font-family: 20 Kopeek;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.sheet-logo{
+    min-width: 255px;
+}
+.sheet h4{
+//styleName: Desk — H3;
+    font-family: 20 Kopeek Book;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.flex-box{
+    margin-left: 30px;
+}.display-flex-vertical{
+
+ }
